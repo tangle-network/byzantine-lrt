@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
 import {TangleByzantineTokenVault} from "../src/TangleByzantineTokenVault.sol";
-import {MultiAssetDelegation} from "../src/MultiAssetDelegation.sol";
+import {MultiAssetDelegation, MULTI_ASSET_DELEGATION_CONTRACT} from "../src/MultiAssetDelegation.sol";
 import {IOracle} from "dependencies/byzantine-contracts/src/interfaces/IOracle.sol";
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
